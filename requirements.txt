@@ -1,7 +1,7 @@
+ultralytics>=8.0.0
+opencv-python
+Pillow
+matplotlib
 streamlit
 pandas
-matplotlib
-Pillow
-ultralytics
-opencv-python
 pyyaml
