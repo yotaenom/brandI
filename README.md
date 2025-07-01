@@ -108,6 +108,8 @@ BrandI/
 ├── models/                   # Folder for saved YOLOv8 weights
 │   └── best.pt               # Latest trained model
 ├── README.md                 # Project documentation
+├── requirements.txt          # Dependencies
+├── runtime.txt               # Python version
 ├── trained_data.zip          # Pretrained model weights and outputs
 ├── training_dataset.ipynb    # Notebook for training the model
 ```
