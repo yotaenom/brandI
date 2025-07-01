@@ -11,12 +11,26 @@ BrandI is a computer vision system that detects brand logos in real-world images
 - High performance with strong precision and recall
 - Pre-trained model and Streamlit-based UI for image testing
 
+## Setup Instructions
+
+To create a new Conda virtual environment and install the required dependencies:
+
+```bash
+# Create a new Conda environment
+conda create -n brandi-env python=3.10
+
+# Activate the environment
+conda activate brandi-env
+
+# Install dependencies from requirements.txt
+pip install -r requirements.txt
+```
+
 ## Streamlit App – Test an Image
 
 To launch the Streamlit interface:
 
 ```bash
-pip install streamlit
 streamlit run main.py
 ```
 
